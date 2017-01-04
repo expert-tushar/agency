@@ -1,0 +1,263 @@
+*{
+	margin:0;
+}
+body{
+	font-family: 'Josefin Slab', serif;
+}
+
+.header_top{
+	background: url("img/1.jpg") no-repeat ;
+    height:1080px;
+}
+.logo{
+	margin-top: 100px;
+    margin-left: 20px;
+}
+.logo img{
+	width: 240px;
+}
+.main_menu{
+	margin-top: 100px;
+}
+.main_menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+
+}
+.main_menu ul li{
+	float: left;
+	margin-left: 5px;
+	padding: 5px;
+	
+}
+.main_menu ul li a{
+	text-decoration: none;
+	color:#5B5B5D;
+	font-size: 14px;
+	font-weight: bold ;
+	padding: 5px;
+}
+.main_menu ul li:hover a{
+	border: 1px solid #646969;
+	border-radius: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.heading{
+	margin-top: 200px;
+	text-align: center;
+}
+.heading h1{
+	font-size: 48px;
+	font-weight: bold;
+	color: #000;
+}
+.heading p{
+	font-size: 18px;
+	color: #AAAAA9;
+}
+.heading .btn{
+	background: linear-gradient(to left,violet,indigo);
+	color: #fff;
+	width: 150px;
+	border-radius: 25px;
+	margin-top: 40px;
+}
+.heading-bottom{
+	margin: 0;
+	padding: 0;
+}
+.heading-bottom-img>.col-md-6{
+	margin: 0;
+	padding: 0;
+}
+.heading-bottom-img>img{
+	position: relative;
+	width: 100%;
+	height: 100px;
+
+}
+.img-responsive{
+	width: 100%;
+	height:300px;
+}
+.heading-bottom-img-text{
+	position: absolute;
+	top: 25%;
+	color: #fff;
+	width: 100%;
+	text-align: left ;
+	margin-left: 5%;
+	padding-right: 20%;
+	
+}
+.heading-bottom-img-text h1{
+	color: #fff;
+	margin-left: 150px;
+	font-size:48px;
+}
+.heading-bottom-img-text P{
+	color: #fff;
+	margin-left: 150px;
+	margin-right: 55px;
+	font-size: 14px;
+}
+.heading-bottom-img-text>.btn{
+	background: linear-gradient(to left, violet , indigo);
+	width: 150px ;
+	border: none;
+	border-radius: 15px;
+	color: #fff;
+	margin-top: 15px;
+	margin-left: 150px;
+	margin-right: 55px;
+}
+.content_area{
+	background: #FFF;
+}
+.content_area h3{
+	color: #010101;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	font-family: sans-serif;
+	margin-bottom: 60px;
+}
+.content_img1 img{
+	width: 80px;
+	height: 80px;
+	margin-bottom:90px;
+}
+.content_text1{
+    margin-left: 120px;
+    margin-top: -192px;
+    margin-bottom: 80px;
+}
+.content_text1 h1{
+	color: #202020;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: serif;
+}
+.content_text1 p{
+	color: #A1A1A1;
+}
+
+
+.content_img2 img{
+	width: 80px;
+	height: 80px;
+	margin-bottom:90px;
+}
+.content_text2{
+    margin-left: 120px;
+    margin-top: -192px;
+    margin-bottom: 80px;
+}
+.content_text2 h1{
+	color: #202020;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: serif;
+}
+.content_text2 p{
+	color: #A1A1A1;
+}
+.button{
+	text-align: center;
+}
+.button .btn{
+	background: linear-gradient(to left, violet , indigo);
+	width: 150px ;
+	border: none;
+	border-radius: 15px;
+	color: #fff;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.slider {
+        width:96%;
+        margin: 100px auto;
+        background: #000;
+    }
+
+    .slick-slide {
+      /*margin: 0px 20px;*/
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+.about{
+	position: relative;
+}
+.about img{
+	width: 100%;
+	height:100vh;
+}
+.about_head{
+	position: absolute;
+	margin-top: -550px;
+	text-align: center;
+}
+.about_head h1{
+	color: #fff;
+	font-size: 48px;
+	font-family: serif;
+	font-weight: bold;
+}
+.about_head p{
+	color: #A1A1A1;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+.about-member{
+	position: absolute;
+	top:55%;
+	left: 9%;
+	text-align: center;
+}
+.about-member img{
+	width: 100px;
+	height: 100px;
+}
+.about-member-text h1{
+	color:#fff;
+	font-weight: bold;
+	font-family: serif;
+	font-size: 20px; 
+}
+.about-member-text p{
+	color: #A1A1A1;
+	font-size: 14px;
+}
+.about-bottom{
+	position: absolute;
+	top: 90%;
+	text-align: center;
+}
+.about-bottom .btn{
+    background: linear-gradient(to left, violet , indigo);
+	width: 150px ;
+	border: none;
+	border-radius: 15px;
+	color: #fff;
+	margin-top: -55px;
+	margin-left:650px;
+}
+.footer{
+	text-align: center;
+	font-size:14px;
+	padding: 50px;
+}
+.footer a{
+	text-decoration: none;
+	color: #ADB2C1;
+}
